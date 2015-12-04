@@ -96,7 +96,7 @@ var Contact = React.createClass({
     render:function(){
         return(
             <div id="contact" className="contactArea">
-                <h2>联系我们</h2>
+                <h2 style={{"color":"white","fontWeight":"bold"}}>联系我们</h2>
                 <div className="contactAreaBtn">
                     <div className="btn btn-success btn-large">发送邮件至jiye@ebupt.com</div>
                 </div>
@@ -109,7 +109,7 @@ var Works = React.createClass({
         return(
             <div id="work" className="workArea">
                 <h2>作品展示</h2>
-                <div className="row">
+                <div className="row" style={{"marginTop":"50"}}>
                     <div className="col-sm-4">
                         <img src="../images/ontee.png"/>
                     </div>
