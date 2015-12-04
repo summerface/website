@@ -26,6 +26,12 @@ a {
   right: 0;
   z-index: 1000;
 }
+.sep{
+  border-left: 1px solid rgba(255,255,255,0.2);
+  width: 1px;
+  margin: 14px 20px;
+  height: 16px;
+}
 .navbar .navbar-brand{
   padding: 0;
   float: left;
@@ -67,4 +73,67 @@ a {
 }
 .contactBtn{
   margin-top: 20px;
+}
+.indexArea,.contactArea,.workArea{
+  padding:100px 0 0;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+.indexArea h2{
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ .lead{
+  font-size: 2rem;
+  color: #555;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+   margin-top:20px;
+}
+.indexArea .container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.indexArea .screens{
+  position: relative;
+  height: 540px;
+  margin-top: 60px;
+  overflow: hidden;
+}
+.indexArea .screens img {
+  margin-top: 60px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: none;
+}
+.indexArea .screen{
+  display:inline;
+}
+.indexArea a{
+  text-decoration: none;
+  color:#777;
+}
+.contactArea h2{
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navPic:hover{
+  cursor: pointer;
+}
+.workArea img{
+  width:100%;
+}
+.contactAreaBtn .btn{
+  margin-top:80px;
+  margin-bottom: 100px;
 }

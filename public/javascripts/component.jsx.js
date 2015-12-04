@@ -5,7 +5,7 @@
     global.components.IndexComponent = React.createClass({
         render:function(){
            return(
-             <div>first node test</div>
+             <div></div>
              )
         }
     });
