@@ -4,5 +4,67 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: white;
+}
+.indexApp{
+  background: url("../images/bg.jpg") top right no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  opacity: 1;
+}
+.navbar{
+  background: none;
+  position: absolute;
+  top: 0;
+  height: 110px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.navbar .navbar-brand{
+  padding: 0;
+  float: left;
+  margin-top: 10px;
+  max-width: none;
+}
+.navbar .nav{
+  margin-left: 40px;
+  margin-top: 5px;
+  position: absolute;
+  right: 50px;
+}
+.picarea{
+  z-index: 100;
+  position: relative;
+  height: 720px;
+  text-align: center;
+  color: #fff;
+  padding: 200px 0 0;
+}
+.picarea p{
+  font-size: 18px;
+  font-weight: 300;
+  margin: 1em 0 1.5em;
+  color: white;
+}
+.picarea h1{
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: .2em;
+  margin-top: .2em;
+  color: #fff;
+
+  font-family: "微软雅黑";
+}
+.picarea .text{
+  margin: 40px 0 0 0;
+  max-width: 400px;
+}
+.contactBtn{
+  margin-top: 20px;
 }

@@ -23,9 +23,34 @@ var App = React.createClass({
         console.log(Router);
         return (
             <div className="indexApp">
-                <div className="container">
-                    <RouteHandler />
+                <div className="navbar">
+                    <div className="container">
+                        <a className="navbar-brand" href="/"><img src="https://d1hjm33yswheja.cloudfront.net/img/inc-logo.svg" alt="Inc" width="48"/></a>
+                        <ul className="nav navbar-nav">
+                            <li><a href="/features/" className="nav-index">首页</a></li>
+                            <li><a href="/about/" className="nav-service">服务</a></li>
+                            <li><a href="/pricing/" className="nav-works">作品</a></li>
+                            <li><a href="http://blog.sendtoinc.com/">博客</a>
+                            </li><li className="sep"></li>
+                            <li><a href="/accounts/login/">联系我们</a></li>
+                        </ul>
+                    </div>
                 </div>
+                <section>
+                    <div className="container picarea">
+                        <div className="row">
+                            <div className="col col-xs-12">
+                                <div className="text">
+                                    <h1> 更好的服务:<br/>
+                                        为您的企业提供便利</h1>
+                                    <p> 承接响应式网站，移动app，微信公众号等业务</p>
+                                    <div className="btn btn-success contactBtn btn-large">了解更多</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <RouteHandler />
+                </section>
             </div>
         );
     }
